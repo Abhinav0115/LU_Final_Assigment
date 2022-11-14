@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Lucky you are?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title" id="IdTitle">How lucky you are?👻</h1>
+
+        <button class="btn again" id="again">Again</button>
+        <div class="number">?</div>
+    </header>
+    <main id="main">
+        <section class="left">
+            <p class="between">(Between 0 and 20)</p>
+            <input type="number" class="guess" id="guessing">
+            <button class="btn checkbtn" id="check">
+                Check!
+            </button>
+        </section>
+
+        <section class="right">
+
+            <p class="message" id="message">Start Guessing...</p>
+            <p class="labelScore">💯Score: 
+                <span class="score" id="score">10</span>
+            </p>
+
+            <!-- <p class="labelHighscore"> -->
+            <!-- 🥇Highscore: -->
+            <!-- <span id="highscore" class="highscore">0</span> -->
+            <!-- </p> -->
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
